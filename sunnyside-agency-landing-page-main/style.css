@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.mainContainer{
+    width: 100%;
+    height: 100%;
+}
 .firstSectionContainer{
     width: 100%;
     height: 100vh;
@@ -24,9 +28,57 @@ nav{
     padding: 30px 40px;
     align-items: center;
 }
+i{
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.fa-bars{
+    display: none;
+    color: white;
+    font-size: 19px;
+}
+.drawerMenu{
+    width: 0%;
+    height: 100vh;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    transition: 1.5s;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+}
+.drawerMenu ul{
+    list-style: none;
+}
+.drawerMenu a{
+    text-decoration: none;
+    text-align: center;
+    color: hsl(210, 4%, 67%);
+    font-family: "barlow",sans-serif;
+    font-size: 18px;
+    margin: 80px;
+}
+.active{
+    width: 50%;
+    transition: 1.5s;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
 .logo{
     width: 100%;
-    height: 32px;
+    height: 20px;
 }
 .navContainer{
     width: 100%;
@@ -365,4 +417,167 @@ nav{
 }
 .socialIcons img{
     padding: 15px;
+}
+             /* Seventh Section Complete */
+@media(max-width:1081px){
+    .sixthSectionContainer{
+        overflow: scroll;
+    }
+    .sixthBackgroundImage{
+        flex-basis: 50%;
+    }
+    .employee{
+        width: 50%;
+    }
+}
+@media(max-width:703px){
+    .thirdTextContainer{
+        top: 350px;
+    }
+    .fourthTextContainer{
+        top: 350px;
+    }
+}
+@media(max-width:630px){
+    .navContainer{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+@media(max-width:579px){
+    .fifthSectionContainer{
+        height: 120vh;
+    }
+    .employee{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .employerContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:494px){
+    .secondSectionContainer{
+        position: relative;
+        height: 100vh;
+    }
+    .textContainer{
+        width: 100%;
+        position: absolute;
+        top: 200px; 
+    }
+    .secondHeadline{
+        width: 80%;
+        text-align: center;
+        flex-basis: 10%;
+
+    }
+    .discription{
+        width: 80%;
+        text-align: center;
+    }
+    .link{
+        width: 100%;
+        text-align: center;
+    }
+    .secondBackgroundImage{
+        width: 100%;
+        height: 50%;
+    }
+    .firstHeadline{
+        font-size: clamp(1rem,10vw,2rem);
+    }
+    .thirdSectionContainer{
+        height: 100vh;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .secondTextContainer{
+        width: 100%;
+        position: absolute;
+        top: 200px;
+    }
+    .thirdHeadline{
+        width: 80%;
+        text-align: center;
+        flex-basis: 10%;
+    }
+    .secondDiscription{
+        width: 80%;
+        text-align: center;
+    }
+    .link2{
+        width: 100%;
+        text-align: center;
+    }
+    .thirdBackgroundImage{
+        width: 100%;
+        height: 50%;
+    }
+    .fourthSectionContainer{
+        height: 140vh;
+        flex-wrap: wrap;
+    }
+    .fourthBackgroundImage{
+        width: 100%;
+        height: 50%;
+    }
+    .fourthBackgroundImage img{
+        width: 100%;
+        height: 50%;
+    }
+    .fifthBackgroundImage{
+        width: 100%;
+        height: 50%;
+    }
+    .fifthBackgroundImage img{
+        width: 100%;
+        height: 50%;
+    }
+    .thirdTextContainer{
+        width: 100%;
+        top: 350px;
+    }
+    .fourthTextContainer{
+        width: 100%;
+        bottom: -500px;
+    }
+    .abouts a{
+        padding-left: 10px;
+    }
+    .fifthSectionContainer{
+        height: 140vh;
+    }
+}
+@media(max-height:820px){
+    .textContainer{
+        top: 150px;
+    }
+    .discription{
+        font-size: 15px;
+    }
+    .secondTextContainer{
+        top: 150px;
+    }
+    .secondDiscription{
+        font-size: 15px;
+    }
+    .thirdDiscription{
+        font-size: 15px;
+    }
+    .thirdTextContainer{
+        top: 250px;
+    }
+    .fourthTextContainer{
+        top: 200px;
+    }
+    .fourthDiscription{
+        font-size: 15px;
+    }
+    .fifthSectionContainer{
+        height: 177vh;
+    }
 }
