@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstSectionContainer{
+    width: 100%;
+    height: 100vh;
+}
+.firstBackgroundImage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    height: 32px;
+}
+.navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navContainer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    height: 32.6px;
+    align-items: center;
+}
+.navContainer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+.navContainer a:hover{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    padding: 15px;
+    border: solid white;
+    border-radius: 30px;
+    background-color: white;
+    outline: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+}
+.firstHeadline{
+    width: 100%;
+    height: 330px;
+    font-size: 3.9rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrowDown{
+    text-align: center;
+}
+                          /* First Section Complete */
+.secondSectionContainer{
+    width: 100%;
+    height: 70vh;
+}
+.secondSectionContainer{
+    display: flex;
+}
+.textContainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondHeadline{
+    width: 50%;
+    flex-basis: 20%;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+.discription{
+    width: 50%;
+    flex-basis: 20%;
+    color: hsl(210, 4%, 67%);
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.link {
+    width: 50%;
+    font-size: 18px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    border-bottom: solid hsl(51, 100%, 49%);
+}
+.secondBackgroundImage{
+    width: 50%;
+    height: 100%;
+}
+.secondBackgroundImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+                     /* Second Section Complete */
+.thirdSectionContainer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.thirdBackgroundImage{
+    width: 50%;
+    height: 100%;
+}
+.thirdBackgroundImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.secondTextContainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thirdHeadline{
+    width: 50%;
+    flex-basis: 20%;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+.secondDiscription{
+    width: 50%;
+    flex-basis: 20%;
+    color: hsl(210, 4%, 67%);
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.link2 {
+    width: 50%;
+    font-size: 18px;
+}
+.link2 a{
+    text-decoration: none;
+    color: black;
+    border-bottom: solid hsl(7, 99%, 70%);
+}
+                        /* Third Section Complete */
+.fourthSectionContainer{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.fourthBackgroundImage{
+    width: 50%;
+    height: 100%;
+}
+.fourthBackgroundImage img{
+    width: 50%;
+    height: 70vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+
+}
+.thirdTextContainer{
+    top: 417px;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourthHeadline{
+    font-size: 2rem;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Fraunces', serif;
+}
+.thirdDiscription{
+    width: 70%;
+    font-size: 18px;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+.fifthBackgroundImage{
+    width: 50%;
+    height: 100%;
+}
+.fifthBackgroundImage img{
+    width: 50%;
+    height: 70vh;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+.fourthTextContainer{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 417px;
+}
+.fifthHeadline{
+    font-size: 2rem;
+    color: hsl(198, 62%, 26%);
+    font-family: 'Fraunces', serif;
+}
+.fourthDiscription{
+    width: 70%;
+    font-size: 18px;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    padding-top: 30px;   
+    font-family: 'Barlow', sans-serif;
+}
+                  /* Fourth Section Complete */
+.fifthSectionContainer{
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 135px 0;
+}
+.sixthHeadline{
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Fraunces",serif;
+    letter-spacing: 3px;
+    margin-bottom: 65px;
+}
+.employerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.employee{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    width: 100%;
+    color: hsl(213, 9%, 39%);
+    padding-left: 21px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Barlow",sans-serif;
+}
+.name{
+    font-family: "Fraunces",serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.position{
+    font-size: 16px;
+    font-family: "Barlow",sans-serif;
+    color: hsl(232, 10%, 55%);
+}
+.profile{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.profile img{
+    height: 80px;
+    border-radius: 100%;
+}
+.sixthSectionContainer{
+    width: 100%;
+    height: 39vh;
+    display: flex;
+}
+.sixthBackgroundImage{
+    flex-basis: 25%;
+    object-fit: cover;
+}
+.seventhSectionContainer{
+    min-width: 100%;
+    height: 30vh;
+    background-color: #9CDDCD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.seventhHeadline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.abouts{
+    width: 100%;
+}
+.abouts ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    font-family: "barlow",sans-serif;
+    font-size: 18px;
+    padding: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abouts a{
+    text-decoration: none;
+    color: #2C7566;
+    padding-left: 50px;
+    text-align: center;
+}
+.socialIcons{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.socialIcons img{
+    padding: 15px;
+}
