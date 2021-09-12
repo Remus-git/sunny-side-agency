@@ -551,6 +551,9 @@ i{
     .fifthSectionContainer{
         height: 140vh;
     }
+    .active{
+        width: 100%;
+    }
 }
 @media(max-height:820px){
     .textContainer{
@@ -579,5 +582,16 @@ i{
     }
     .fifthSectionContainer{
         height: 177vh;
+    }
+}
+@media(max-height:659px){
+    .fifthSectionContainer{
+        height: 220vh;
+    }
+    .fourthTextContainer{
+        top: 50px;
+    }
+    .thirdTextContainer{
+        top: 150px;
     }
 }
